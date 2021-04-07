@@ -113,3 +113,9 @@ uname = input("Enter username: ")
 pwd = input("Enter password: ")
 if st.login(uname, pwd):
     st.display_profile()
+
+t = Teacher("002", "aa", "pp", "Ananta", "987654", "Ktm", "Professor")
+uname = input("Enter username: ")
+pwd = input("Enter password: ")
+if t.login(uname, pwd):
+    t.display_profile()
